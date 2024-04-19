@@ -1,0 +1,85 @@
+:root{
+    --corbotao: #55aed1;
+}
+
+
+/* Classes */
+
+.fale-banner{
+    background-image: url(../media/fachada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 500px;
+}
+
+.fale-filtro{
+    padding: 15% 15%;
+    background: rgba(0, 0, 0, 0.37);
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fale-filtro > p{
+    color: var(--text2);
+ }
+
+
+.fale-filtro > div{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.botao{
+    width: 49.365%;
+    background-color: var(--corbotao);
+    border-radius: 20px;
+    border-color: #00000000;
+    border-style: double;
+}
+
+.campo{
+    color: var(--cortexto);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.mini{
+    text-align: center;
+    color: var(--text2);
+}
+
+
+/* IDs */
+
+#logobanner{
+    width: 25%;
+
+}
+
+/* Tags */ 
+
+form{
+    text-align: center;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+    margin: 2% 0%;
+}
+
+input{
+    width: 49%;
+}
+
+h1{
+    color: var(--text2);
+}

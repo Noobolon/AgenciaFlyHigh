@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly High - Fale Conosco</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/fale.css">
+    <link rel="icon" href="../media/logo/FlyHigh.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><img src="../media/logo/FlyHigh.png" alt="logo" id="logo">  </a>
+            <div>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="../pag/pacotes.html">Pacotes</a></li>
+                    <li><a href="../pag/fale.html">Fale conosco</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="fale-banner">
+        <div class="fale-filtro">
+
+            <div>
+                <img src="../media/logo/FlyHigh.png" alt="Logo" id="logobanner">
+                <h1>Fale Conosco</h1>
+            </div>
+            
+            <!-- formulário --> 
+            <form class="fale" method="post" action="../script/formulario.php">
+
+                <div class="campo">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                </div>
+                <div class="campo">
+                    <input type="tel" name="telefone" placeholder="Telefone">
+                    <input type="text" name="assunto" placeholder="Assunto">
+                </div>
+                <div class="conteudo">
+                    <textarea name="mensagem" id="mensagem" rows="10" cols="70" placeholder="Mensagem"></textarea>
+                </div>
+
+                <button class="botao" type="reset" onsubmit="">Limpar</button>
+                <button class="botao" type="submit" onsubmit="">Enviar</button>
+
+            </form>
+            
+        </div>
+        
+    </div>
+
+    <footer>
+        <div>
+            <h1>Contatos</h1>
+            <img src="../media/logo/linkedin.webp" alt="LinkedIn" class="imagem-footer">
+            <img src="../media/logo/ig.png" alt="Instagram" class="imagem-footer">
+            <img src="../media/logo/whats.png" alt="Whatsapp" class="imagem-footer">
+        </div>
+        <div id="lol">
+            <h1>Fly High</h1>
+            <img src="../media/logo/FlyHigh.png" alt="Logo" class="imagem-footer">
+        </div>
+    </footer>
+
+</body>
+</html>

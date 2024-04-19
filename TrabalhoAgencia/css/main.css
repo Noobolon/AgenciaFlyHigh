@@ -1,0 +1,211 @@
+/*Variáveis*/
+
+:root {
+--background: #add3e2;
+--sub: #55aed1;
+--sub2: #ffffff;
+--footercolor: #4e4e4e;
+--text1: #585858;
+--text2: #ffffff;
+
+}
+
+@font-face {
+    font-family: 'Univers';
+    src: url('../fonts/UniversLTStd.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*{
+    font-family: 'Univers';
+    margin: 0px 0px 0px 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    user-select: none;
+}
+
+
+
+/*Classes*/
+
+.imagem{
+    margin: 0px 0px 0px 0px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 5px 10px #5f5f5f;
+}
+
+.imagem-footer{
+    width: 50px;
+}
+
+.filtro{
+    padding: 15% 20% 15% 20%;
+    background: rgba(0, 0, 0, 0.37);
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+}
+
+.filtro > h1{
+    font-size: 500%;   
+    color: var(--text2);
+}
+.filtro > p{
+    font-size: 100%;
+    font-weight: lighter;
+    letter-spacing: 9px;
+}
+
+.banner{
+    width: 100%;
+
+    background-image: url("../media/paisagemacucar.jpg");
+
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--text2);
+}
+
+.maintexto{
+    align-items: center;
+}
+
+.rodape{
+    list-style-type: none;
+    display: list-item;
+}
+
+
+/*IDs*/
+
+#logo{
+    width: 76px;
+
+}
+
+#banner{
+    height: 650px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#lol{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*Tags*/
+
+body{
+    background-color: var(--background);
+    font-size: 16pt;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+
+a{
+    color: var(--text2);
+    text-decoration: none;
+}
+
+a::after{
+    color: var(--text2);
+    text-decoration: none;
+}
+
+
+
+/*Cabeçário*/
+
+header{
+    width: 100vw;
+    font-weight: bold;
+    padding: 20px 40px 20px 40px;
+    margin: 0px 0px 0px 0px;
+    background-color: var(--sub);
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav > ul{
+    display: flex;
+}
+
+ul > li{
+    padding: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+
+/*Principal*/
+
+main{
+    margin: auto;
+    padding: 2% 10%;
+    background-color: var(--sub2);
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section > div {
+    margin: 2% 5% 0% 5%;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+section > div > p{
+    color: var(--text1);
+}
+
+/*Rodapé*/
+
+footer{
+    background-color: var(--footercolor);
+    padding: 2% 2% 2% 2%;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:justify;
+    margin-top: auto;
+}
+
+footer > div > h1{
+    color: var(--text2);
+}

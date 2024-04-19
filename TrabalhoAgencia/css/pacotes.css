@@ -1,0 +1,105 @@
+
+
+
+/* IDs */
+
+#fernando{
+    background-image: url('../media/pacotes/fernando.jpg');
+}
+
+#gramado{   
+    background-image: url('../media/pacotes/gramado.jpg');
+}
+
+#jericoacoara{
+    background-image: url('../media/pacotes/jericoacoara.jpg');
+}
+
+#paranapiacaba{
+    background-image: url('../media/pacotes/paranapiacaba.jpg');
+}
+
+
+
+/* Classes */
+
+.main-pacote{
+    margin: auto;
+    padding: 0%;
+    color: none;
+    min-height: 450px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filtro-pacote{
+    padding: 25% 5% 5% 5%;
+    background: rgba(0, 0, 0, 0.37);
+    width: 100vw;
+    height: 70vh;
+
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cidadeLink{
+    text-decoration: underline;
+}
+
+.botoes{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.imagem-pacote{
+    display: block;
+    margin: 2% auto;
+    width: 50%;
+}
+
+.filtro-pacote > div > h1, p{
+    color: var(--text2);
+}
+
+/* Tags */
+
+button{
+    transform: translateY(30px);
+    background-color: var(--sub);
+    color: var(--text2);
+    font-weight: bold;
+    font-size: 14pt;
+
+    cursor:pointer;
+    padding: 2% 20vh;
+    border: none;
+    border-radius: 25px;
+}
+
+button:hover{
+    background-color: #4187a3;
+}
+
+button::after{
+    transform: translateY(30px);
+    background-color: var(--sub);
+    color: var(--text2);
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    font-size: 14pt;
+    color: #bbbbbb;
+    margin-bottom: 5px;
+}
